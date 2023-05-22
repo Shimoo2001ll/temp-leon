@@ -158,7 +158,7 @@ header .container{
  text-align: center;
  max-width: 100%;
  position: absolute;
- top: 50%;
+ top: 40%;
  left: 50%;
  transform:translate(-50%,-50%) ;
  -webkit-transform:translate(-50%,-50%) ;
@@ -167,13 +167,15 @@ header .container{
  -o-transform:translate(-50%,-50%) ;
 }
 .intro-text h1 {
-    color: #10cab7;
+    color: #10ecd6;
     font-size:50px;
+    font-weight: bold;
 }
 
 .intro-text p {
     padding: 10px 0;
     font-size: 20px;
+    font-weight: bold;
 }
 
 header .img-header {
@@ -499,6 +501,10 @@ footer span{
     display: flex;
     flex-direction: column;
   }
+  .intro-text{
+    top: 50%;
+    letter-spacing: 1.2px;
+  }
   .main-proto .container,
   .services .container {
     display: flex;
@@ -523,6 +529,7 @@ footer span{
     padding: 0;
 }
 .links .icon{
-    margin: 30px;
+    margin: 0 30px ;
 }
+
 }
